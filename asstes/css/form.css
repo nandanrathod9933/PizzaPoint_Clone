@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../asstes/fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.col_100 {
+    width: 100%;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+/* section start */
+.sec1_bg {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.reg_text {
+    text-align: center;
+}
+
+.reg_text .error {
+    letter-spacing: 3px;
+    font-size: 49px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.form_bg {
+    width: 80%;
+    margin: 50px auto;
+    color: #f1f1f1;
+    box-shadow: -2px 7px 37px 8px rgb(167 167 167 / 52%);
+}
+
+.left_bg {
+    background-color: #3a3d6e;
+    padding: 50px;
+    text-align: center;
+}
+
+.form_text h3 {
+    font-size: 22px;
+    color: #60baaf;
+}
+
+.form_text p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px 0 40px 0;
+    color: #bdbdbd;
+}
+
+.form_row {
+    border: 1px solid white;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.form_col i {
+    font-weight: bold;
+    padding: 5px 10px;
+    /* border-right: 1px solid white; */
+    font-size: 25px;
+}
+
+.form_select select {
+    width: 100%;
+    padding: 9px 10px;
+    /* font-size: 19px; */
+}
+
+.from_input input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0 50px 0 0;
+    margin-right: 80px;
+}
+
+.form_submit {
+    justify-content: center;
+}
+
+.form_submit input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+}
+
+.right_bg {
+    padding: 50px;
+}
+
+.img_box {
+    text-align: center;
+}
+
+.img_box h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.img_box p {
+    font-size: 13.5px;
+    line-height: 24px;
+    margin: 40px 0;
+    color: #908c8c;
+}
+
+.img_box_img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img_box_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy p {
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 3px;
+}
+
+.copy p a {
+    color: #60baaf;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+
